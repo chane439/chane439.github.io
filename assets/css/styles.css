@@ -1,4 +1,6 @@
 body {
-    background: #ffa;
+    background: rgb(255, 211, 170);
     font-size: 30px;
+    font: rgb(92, 255, 132);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
