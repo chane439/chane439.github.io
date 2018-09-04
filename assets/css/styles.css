@@ -1,7 +1,6 @@
 body {
     background: rgb(172, 255, 169);
-    scroll-behavior: smooth;
-    scrollbar-base-color: chartreuse;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT';
+    font color: #191970;
 }
