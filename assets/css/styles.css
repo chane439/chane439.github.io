@@ -3,3 +3,13 @@ body {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT';
 }
+
+.small {width: 154.5px;}
+
+.medium {width: 200px;}
+
+div {background: #468a87;}
+
+.header {background: #89ccca;}
+
+.content {background: #6ba09e;}
