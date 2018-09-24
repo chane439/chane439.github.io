@@ -1,0 +1,17 @@
+body {
+    background: #509896;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    margin: 50px 100px 50px 100px;
+
+}
+
+.small {width: 500px;}
+
+.medium {width: 1000px;}
+
+div {background: #468a87;}
+
+.header {background: #89ccca;}
+
+.content {background: #6ba09e;}

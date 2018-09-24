@@ -14,3 +14,18 @@ div {background: #468a87;}
 .header {background: #89ccca;}
 
 .content {background: #6ba09e;}
+
+.c {
+    background: #6ba09e;
+    width: 130px;
+    height: 125px;
+    margin: 0 15px 100px 15px;
+    display: inline-block;
+}
+
+.c1 {width: 130px;}
+.c2 {width: 290px;}
+.c3 {width: 505px;}
+.c4 {width: 620px;}
+.c5 {width: 770px;}
+.c6 {width: 930px;}
