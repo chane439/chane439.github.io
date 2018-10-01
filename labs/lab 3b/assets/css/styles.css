@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 50px;
+
+}
+
+.header {
+    background: #f8E71C;
+    width: 768px;
+    height: 668px;
+    padding: 100px;
+}
+
+.purple {
+    width: 568px;
+    height: 568px;
+    padding: 100px;
+    background: #202665;
+}
+
+.green {
+    width: 368px;
+    height: 368px;
+    background: #009E4F;
+    padding: 15px;
+}
+
+.red {
+    width:768px;
+    height: 100px;
+    background: #D0021B;
+}
+
+.bar {
+    background: #ED2025;
+    width: 338px;
+    height: 73.25px;
+}
+
+.rel {position: relative; bottom: -15px}
+
+.rel2 {position: relative; bottom: -30px}
+
+.rel3 {position: relative; bottom: -45px}
