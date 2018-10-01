@@ -10,26 +10,35 @@ body {
     padding: 5px;
     background: #282c35;
     color: #383c46;
+    margin: 0px 0px 25px 0px;
 }
 
-.c {
+.c1 {
     background: #282c35;
-    width: 505px;
+    width: 528.5px;
     height: 125px;
-    margin: 15px 15px 100px 15px;
+    margin: 15px 15px 0px 0px;
+    display: inline-block;
+}
+
+.c2 {
+    background: #282c35;
+    width: 528.5px;
+    height: 125px;
+    margin: 0px 0px 0px 0px;
     display: inline-block;
 }
 
 .subhead {
-color: rgb(207, 207, 207);
+color: #383c46;
 font-family: 'Gill Sans';
 font-size: 30px;
 }
 
-.list {color: rgb(207, 207, 207);}
+.list {color: #474c58;}
 
 .theme {
-    margin: 15px 0 0 0;
+    margin: 15px 0 25px 0;
     font-family: 'Monoton', cursive;
     color: #ffff;
-    font-size: 50px;}
+    font-size: 80px;}
