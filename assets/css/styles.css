@@ -17,7 +17,7 @@ body {
     background: #282c35;
     width: 528.5px;
     height: 125px;
-    margin: 15px 15px 0px 0px;
+    margin: 0px 0px 0px 0px;
     display: inline-block;
 }
 
@@ -38,7 +38,7 @@ font-size: 30px;
 .list {color: #474c58;}
 
 .theme {
-    margin: 15px 0 25px 0;
+    margin: 30px 0 25px 0px;
     font-family: 'Monoton', cursive;
     color: #ffff;
     font-size: 80px;}
