@@ -42,3 +42,13 @@ font-size: 30px;
     font-family: 'Monoton', cursive;
     color: #ffff;
     font-size: 80px;}
+
+.zoom {transition: transform 0.5s;}
+.zoom:hover {
+    transform: scale(1.35); 
+    cursor: none; 
+    text-shadow: 0 0 10px #8090af, 0 0 10px #8090af; }
+
+a:link {color: white; text-decoration: none;}
+a:hover {color: #848faa;}
+a:visited {color: #474c58;}

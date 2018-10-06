@@ -3,7 +3,13 @@ body {
     margin: 0px 100px 100px 100px;
     font-family: 'Futura';
     font-size: 30px;
+    cursor: not-allowed;
 }
+.cursor {cursor: not-allowed}
+
+a:link {color: white; text-decoration: none;}
+a:visited {color: #191c22;}
+a:hover {cursor: zoom-in; text-shadow: 0 0 40px #8090af, 0 0 40px #8090af;}
 
 .fix3 {position: fixed; top: 50px; left:50px;}
 .fix4 {position:fixed; bottom: 50px; right:50px;}
@@ -14,3 +20,6 @@ body {
 .text {color: #495161}
 .zoom {transition: transform 1s;}
 .zoom:hover {transform: scale(1.8);}
+
+img {width: 100%;}
+
