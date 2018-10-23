@@ -1,13 +1,10 @@
 body {
     background:#2e333d;
-    margin: 0;
-    font-size: 0;
-}
+    margin: 5 5 5 5;
+    font-size: 50px;
+    color: white;
+    font-family: Verdana, sans-serif
 
-video {width: 32%;}
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto 0 auto;
-    background: #0f0;
 }
+video {width: 35%;}
+img {width: 100%;}

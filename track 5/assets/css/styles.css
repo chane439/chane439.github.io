@@ -7,6 +7,8 @@ body {
 }
 .cursor {cursor: not-allowed}
 
+.title {font-size: 190px; color: white;}
+
 a:link {color: white; text-decoration: none;}
 a:visited {color: #191c22;}
 a:hover {cursor: zoom-in; text-shadow: 0 0 40px #8090af, 0 0 40px #8090af;}
@@ -21,5 +23,5 @@ a:hover {cursor: zoom-in; text-shadow: 0 0 40px #8090af, 0 0 40px #8090af;}
 .zoom {transition: transform 1s;}
 .zoom:hover {transform: scale(1.8);}
 
-img {width: 100%;}
+img {width: 50%;}
 
