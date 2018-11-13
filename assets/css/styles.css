@@ -1,7 +1,7 @@
 body {
     background:#2e333d;
     font-size: 20px;
-    font-family: 'Futura';
+    font-family: 'gotham';
     margin: 50px 100px 50px 100px;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .subhead {
 color: #383c46;
-font-family: 'Gill Sans';
+font-family: 'futura';
 font-size: 30px;
 }
 
@@ -39,7 +39,7 @@ font-size: 30px;
 
 .theme {
     margin: 30px 0 25px 0px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Cinzel', serif;
     color: #ffff;
     font-size: 80px;}
 

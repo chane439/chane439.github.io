@@ -1,42 +1,24 @@
 body {
-    background: #509896;
-    font-size: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT';
-    margin: 50px 100px 50px 100px;
+    background:black;
+    font-size: 100px;
+    font-family: 'gotham';
+    color: rgb(44, 44, 44);
 }
 
-.small {width: 154.5px;}
+.cinzel {font-family: 'cinzel', serif;}
 
-.medium {width: 200px;}
+.fix {position: fixed; top: 80%; left: 62%;}
 
-div {background: #468a87;}
-
-.header {background: #89ccca;}
-
-.content {background: #6ba09e; font-size:30px;}
-
-.c {
-    background: #999999;
-    width: 130px;
-    height: 125px;
-    margin: 15px 15px 15px 15px;
-    display: inline-block;
-    font-size: 20px;
+.head {
+    font-size: 80px;
+    color: white;
 }
 
-.c1 {width: 125px; height:25px;font-size:22px;}
-.c2 {width: 285px; height:80px;font-size:14px;}
-.c3 {width: 400px; height:150px; font-size:18px;}
-.c4 {width: 620px;}
-.c5 {width: 770px;}
-.c6 {width: 930px; height:20px;font-size: 12px;}
-
-img {width: 100%}
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto 0 auto;
-    background: #6ba09e;
-    color: #ffffff;
-    font-size: 20px;
+.subhead{
+    font-size: 18px;
+    color: rgb(200, 200, 200);
 }
+
+
+a:link {color: rgb(36, 36, 36); text-decoration: none;}
+a:hover {color: white}

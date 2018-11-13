@@ -1,16 +1,19 @@
 body {
-    background: #509896;
+    background: #161616;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT';
-    margin: 50px 100px 50px 100px;
+    font-family: 'gotham';
+    color: rgb(200, 200, 200);
+}
+.gotham {
+    font-size: 295px;
 }
 
-.small {width: 154.5px;}
+.cinzel {
+    font-size: 325px;
+    color: white;
+    font-family: 'cinzel', serif;
+    text-decoration-line: underline;
+}
 
-.medium {width: 200px;}
-
-div {background: #468a87;}
-
-.header {background: #89ccca;}
-
-.content {background: #6ba09e;}
+a:link {color: rgb(36, 36, 36); text-decoration: none;}
+a:hover {color: white}
