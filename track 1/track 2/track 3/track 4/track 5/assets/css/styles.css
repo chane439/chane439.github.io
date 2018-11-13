@@ -1,0 +1,26 @@
+body {
+    background: #161616;
+    font-family: 'gotham';
+    color: rgb(200, 200, 200);
+}
+
+a:link {color: rgba(255, 255, 255, 0.205); text-decoration: none;}
+a:hover {color: white}
+a:visited {color:rgba(255, 255, 255, 0.205));}
+
+img {
+    width: 100%;
+    cursor: none;
+    margin: 0 0 0 0;
+}
+
+.header {
+    text-align: right;
+    font-size: 80px;
+}
+
+.fix{
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.473);
+    position: fixed; top: 32%; left: 37%;
+}

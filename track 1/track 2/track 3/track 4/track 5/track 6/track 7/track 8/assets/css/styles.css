@@ -1,0 +1,42 @@
+body {
+    background: #161616;
+    font-family: 'gotham';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.head {
+    text-align: left;
+    font-size: 225px;
+    color: rgba(255, 255, 255, 0.205);
+}
+
+.fix { position: fixed; top: 0; left:0}
+
+img {
+    height: 500px;
+    cursor: none;
+}
+
+img:hover {display: none;}
+
+.fiximg { position: fixed; top: 20%; left: 34%;}
+
+.subhead{
+    font-size: 25px;
+    color: rgb(179, 179, 179);
+    font-family: 'cinzel', serif;
+}
+
+.leftalign{
+    text-align: left;
+    position: fixed; top: 0; left: 0;
+}
+
+.rightalign{
+    text-align: right;
+    position: fixed; top: 0; right: 0;
+}
+
+a:link {color: rgba(255, 255, 255, 0.205); text-decoration: none;}
+a:hover {color: white}

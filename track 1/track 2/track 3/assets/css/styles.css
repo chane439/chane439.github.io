@@ -1,0 +1,26 @@
+body {
+    background: #161616;
+    font-size: 100px;
+    font-family: 'gotham';
+    color: rgb(44, 44, 44);
+}
+
+.cinzel {font-family: 'cinzel', serif;}
+
+.fix {position: fixed; top: 75%; left: 62%;}
+
+.head {
+    font-size: 80px;
+    color: rgb(200, 200, 200);
+}
+
+.subhead{
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+}
+
+img { width: 3%}
+
+a:link {color: rgb(36, 36, 36); text-decoration: none;}
+a:hover {color: white}
+a:visited {color: black;}

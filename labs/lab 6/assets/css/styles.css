@@ -1,66 +1,14 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box; vertical-align: top;}
 
 body {
-    margin: 0;
+    margin: 30px;
     padding: 0;
     font-size: 0;
 }
 
-html, body, .wrapper {height: 100%;}
+ul, li {margin: 0;
+padding: 0;
+list-style: none;}
 
-.column {
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-    padding: 30px;
-    vertical-align: top;
-}
-
-.content {background: #f1f1f1; font-size: 20px;}
-
-ul, li {
-    margin: 0;
-    padding: 10px;
-    list-style: none;}
-
-.nav-item {
-    font-size: 20px;
-    border: 1px solid #000;
-    padding: 10px, 20px;
-    display: inline-block;
-    margin: 0 15px 15px 0px;}
-
-.nav-item:hover, .active {
-    background: black;
-    color: white;
-    cursor: pointer;}
-
-.green {background: #B8E986;}
-.red {background:#D0021B}
-.blue {background:#4A90E2;}
-.sol-lewitt {background: url('../img/sol-lewitt.gif')}
-.slay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    background: black;
-    color: white;
-    font-size: 200px;}
-.message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate (-50%, -50%);
-}
-.close{
-    font-size: 80px;
-    line-height: 0;
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    cursor: pointer;
-}
-.hide {display:none;}
-.about {background: #ffa;}
+ul, menu, dir {display: block; margin-block-start:1em; margin-block-end: 1em;
+margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start:40px;}
