@@ -1,3 +1,5 @@
+*{box-sizing: border-box}
+
 body {
     background: #161616;
     font-family: 'gotham';
@@ -34,12 +36,17 @@ ul, li {
     display: inline-block;
     margin: 0 15px 15px 0px;}
 
-.nav-item:hover, .active {
+.nav-item:hover {
     background: black;
     color: white;
     cursor: pointer;}
 
-.green {background: #B8E986;}
-.red {background:#D0021B}
-.blue {background:#4A90E2;}
-.sol-lewitt {background: url('../img/sol-lewitt.gif')}
+.hide {display:none;}
+
+.logo.english {width: 150px;}
+
+.logo img {
+    transform: translate (-50%, -50%);
+}
+
+.logo.english img {height: 150px;}

@@ -1,10 +1,4 @@
-$('.nav-item').click(function(){
-    var button_name = $(this).data('button');
-    
-    $ ('.about-text').removeClass('active');  
-    $ ('.nav-item').removeClass('active');  
-    $('.content').attr('class','column content');
-    $(this).addClass('active'); 
-    $('.content').addClass(button_name);
-
-});
+function narcissist () {
+    alert ('That you can try to avoid it, but a Narcissist never heals. No matter what you choose, you can never avoid it.');
+}
+narcissist();

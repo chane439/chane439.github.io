@@ -1,5 +1,5 @@
 body {
-    background:black;
+    background: rgb(44, 44, 44);
     font-size: 30px;
     font-family: 'gotham';
     color: rgb(200, 200, 200);
@@ -13,8 +13,11 @@ padding: 0 0 0 0;
 image-rendering: loop;
 }
 
+.fix2 {position: fixed; top: 8px; left:0; text-align: center;
+    color: rgba(0, 0, 0, 0.4); font-size: 300px; }
+
 .fix {position: fixed; bottom: 0; right: 0;}
-.fix2 {position: fixed; bottom: 0; left: 0;}
+
 
 a:link {color: rgb(36, 36, 36); text-decoration: none; font size: 200pt;}
 a:hover {color: white}
