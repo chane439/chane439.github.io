@@ -6,7 +6,7 @@ body {
 
 a:link {color: rgba(255, 255, 255, 0.205); text-decoration: none;}
 a:hover {color: white}
-a:visited {color:rgba(255, 255, 255, 0.205));}
+a:visited {color: rgb(88, 88, 88);}
 
 img {
     width: 100%;
@@ -17,6 +17,13 @@ img {
 .header {
     text-align: right;
     font-size: 80px;
+}
+
+.subhead{
+    font-size: 25px;
+    color: rgb(179, 179, 179);
+    font-family: 'cinzel', serif;
+    bottom: 0; right: 1%
 }
 
 .fix{

@@ -14,7 +14,7 @@ body {
 .fix { position: fixed; top: 0; left:0}
 
 img {
-    height: 683px;
+    height: 680px;
     width: 1650px;
 }
 
@@ -24,16 +24,16 @@ img {
     font-family: 'cinzel', serif;
 }
 
-.leftalign{
-    text-align: left;
-    position: fixed; top: 50%; left: 2%;
+.rightalign2{
+    text-align: right;
+    position: fixed; top: 63%; right: 15%;
 }
 
 .rightalign{
     text-align: right;
-    position: fixed; top: 0; right: 0;
+    position: fixed; top: 62.5%; right: 10%;
 }
 
 a:link {color: rgb(165, 165, 165); text-decoration: none;}
 a:hover {color: white}
-a:visited {color: black;}
+a:visited {color:rgb(88, 88, 88);}

@@ -14,7 +14,7 @@ body {
 .fix { position: fixed; top: 0; left:0}
 
 img {
-    height: 683px;
+    height: 710px;
     width: 1264px;
 }
 
@@ -26,14 +26,14 @@ img {
 
 .leftalign{
     text-align: left;
-    position: fixed; top: 0; left: 0;
+    position: fixed; top: 0; left: 0.6%;
 }
 
 .rightalign{
     text-align: right;
-    position: fixed; top: 0; right: 0;
+    position: fixed; top: 0; right: 0.3%;
 }
 
 a:link {color: rgb(165, 165, 165); text-decoration: none;}
 a:hover {color: white}
-a:visited {color: black;}
+a:visited {color: rgb(88, 88, 88);}
