@@ -15,7 +15,7 @@ body {
 
 img {
     height: 683px;
-    width: 1264px;
+    width: 1650px;
 }
 
 .subhead{
@@ -26,7 +26,7 @@ img {
 
 .leftalign{
     text-align: left;
-    position: fixed; top: 0; left: 0;
+    position: fixed; top: 50%; left: 2%;
 }
 
 .rightalign{
