@@ -8,13 +8,13 @@ body {
 .head {
     text-align: left;
     font-size: 200px;
-    color: rgba(255, 255, 255, 0.205);
+    color: rgba(102, 0, 0, 0.466);
 }
 
 .fix { position: fixed; top: 0; left:0}
 
 img {
-    height: 680px;
+    height: 710px;
     width: 1264px;
 }
 
@@ -22,15 +22,11 @@ img {
     font-size: 25px;
     color: rgb(179, 179, 179);
     font-family: 'cinzel', serif;
-    text-align: right;
-    bottom: 0; right: 0;
-    position: fixed;
 }
 
-.rightalign{
-    text-align: right;
-    position: fixed; top: 36.5%; right: 0.3%;
-}
+.leftalign{
+    text-align: left;
+    position: fixed; top: 6%; left: 0.6%;}
 
 .leftalign{
     text-align: left;
@@ -47,6 +43,6 @@ img {
     position: fixed; top: 70%; right: 1%;
 }
 
-a:link {color: rgb(165, 165, 165); text-decoration: none;}
-a:hover {color: white}
-a:visited {color: rgb(88, 88, 88);}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 20%; right: 10%;}
+a:hover {color:rgb(76.5,76.5,76.5);}
+a:visited {color:rgb(76.5,76.5,76.5);}

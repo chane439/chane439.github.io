@@ -15,37 +15,25 @@ body {
 
 img {
     height: 680px;
-    width: 1264px;
+    width: 1650px;
 }
 
 .subhead{
     font-size: 25px;
     color: rgb(179, 179, 179);
     font-family: 'cinzel', serif;
-    text-align: right;
-    bottom: 0; right: 0;
-    position: fixed;
-}
-
-.rightalign{
-    text-align: right;
-    position: fixed; top: 30%; right: 0.3%;
-}
-
-.leftalign{
-    text-align: left;
-    position: fixed; bottom:0; left: 0;
 }
 
 .rightalign2{
     text-align: right;
-    position: fixed; top: 1%; right: 1%;
+    position: fixed; top: 63%; right: 15%;
 }
 
+.rightalign{
+    text-align: right;
+    position: fixed; top: 62.5%; right: 10%;
+}
 
-.rightalign3{text-align: right; position:fixed;
-    top: 70%; right: 1%;}
-
-a:link {color: rgb(165, 165, 165); text-decoration: none;}
-a:hover {color: white}
-a:visited {color: rgb(88, 88, 88);}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 62.3%; right: 10%;}
+a:hover {color:rgb(51,51,51);}
+a:visited {color:rgb(51,51,51);}

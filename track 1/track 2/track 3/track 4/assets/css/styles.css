@@ -8,6 +8,25 @@ body {
 .fix {position: fixed; top: 8px; left:0;
     color: rgba(0, 0, 0, 0.4); }
 
-    a:link {color: rgb(36, 36, 36); text-decoration: none; font size: 200pt;}
-    a:hover {color: white}
-    a:visited {color:  rgb(88, 88, 88);}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 50%; right: 50%;}
+a:hover {color:rgb(178.5, 178.5, 178.5);}
+a:visited {color:rgb(178.5, 178.5, 178.5);}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }

@@ -1,39 +1,56 @@
 body {
     background: #161616;
+    font-size: 100px;
     font-family: 'gotham';
-    font-size: 28px;
+    color: rgb(44, 44, 44);
+}
+
+.cinzel {font-family: 'cinzel', serif;}
+
+.fix {position: fixed; top: 75%; left: 62%;}
+
+.head {
+    font-size: 80px;
     color: rgb(200, 200, 200);
 }
 
-.head {
-    text-align: left;
-    font-size: 200px;
-    color: rgba(255, 255, 255, 0.205);
-}
-
-.fix { position: fixed; top: 0; left:0}
-
-img {
-    height: 680px;
-    width: 1650px;
-}
-
 .subhead{
-    font-size: 25px;
-    color: rgb(179, 179, 179);
-    font-family: 'cinzel', serif;
+    font-size: 18px;
+    color: rgb(200, 200, 200);
 }
 
-.rightalign2{
-    text-align: right;
-    position: fixed; top: 63%; right: 15%;
-}
+img { width: 3%; position: fixed; top: 89%; right: 23%;}
 
-.rightalign{
-    text-align: right;
-    position: fixed; top: 62.5%; right: 10%;
-}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 62.3%; right: 10%;}
+a:hover {color:rgb(102,102,102);}
+a:visited {color:rgb(102,102,102);}
 
-a:link {color: rgb(165, 165, 165); text-decoration: none;}
-a:hover {color: white}
-a:visited {color:rgb(88, 88, 88);}
+.n {color: white; font-size: 30px; position: fixed; top: 50%; right: 20%; text-decoration: underline;}
+.a {color: rgb(229.5, 229.5, 229.5); font-size: 30px; position: fixed; top: 20% ; right: 80%;text-decoration: underline;}
+.r {color: rgb(204,204,204); font-size: 30px; position: fixed; top: 87%; right: 10%;text-decoration: underline;}
+.c {color: rgb(178.5, 178.5, 178.5); font-size: 30px; position: fixed; top: 50%; right:50% ;text-decoration: underline;}
+.i {color: rgb(153,153,153); font-size: 30px; position: fixed; top: 37.5%; right: 49.6%;text-decoration: underline;}
+.s {color:rgb(127.5,127.5,127.5) ; font-size: 30px; position: fixed; top: 50%; right: 29%;text-decoration: underline;}
+.s2 {color:rgb(102,102,102) ; font-size: 30px; position: fixed; top: 80%; right: 70%;text-decoration: underline;}
+.i2 {color: rgb(76.5,76.5,76.5) ; font-size: 30px; position: fixed; top: 20%; right: 10%;text-decoration: underline;}
+.c2 {color: rgb(51,51,51); font-size: 30px; position: fixed; top: 62.3%; right: 10%;text-decoration: underline;}
+.m {color: rgb(25.5,25.5,25.5); font-size: 30px; position: fixed; top: 90%; right: 49%;text-decoration: underline;}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }

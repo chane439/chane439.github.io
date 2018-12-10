@@ -8,7 +8,7 @@ body {
 .head {
     text-align: left;
     font-size: 200px;
-    color: rgba(255, 255, 255, 0.205);
+    color: rgba(0, 0, 0, 0.582);
 }
 
 .fix { position: fixed; top: 0; left:0}
@@ -26,14 +26,14 @@ img {
 
 .leftalign{
     text-align: left;
-    position: fixed; top: 0; left: 0.6%;
+    position: fixed; top: 6%; left: 0.6%;
 }
 
 .rightalign{
     text-align: right;
-    position: fixed; top: 0; right: 0.3%;
+    position: fixed; top: 6%; right: 0.3%;
 }
 
-a:link {color: rgb(165, 165, 165); text-decoration: none;}
-a:hover {color: white}
-a:visited {color: rgb(88, 88, 88);}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 50%; right: 29%;}
+a:hover {color:rgb(127.5,127.5,127.5);}
+a:visited {color:rgb(127.5,127.5,127.5);}

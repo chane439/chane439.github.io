@@ -4,9 +4,9 @@ body {
     color: rgb(200, 200, 200);
 }
 
-a:link {color: rgba(255, 255, 255, 0.205); text-decoration: none;}
-a:hover {color: white}
-a:visited {color: rgb(88, 88, 88);}
+a:link {color: rgb(255,0,0); font-size: 30px;position: fixed; top: 37.5%; right: 49.6%;}
+a:hover {color:rgb(153,153,153);}
+a:visited {color:rgb(153,153,153);}
 
 img {
     width: 100%;
@@ -31,3 +31,23 @@ img {
     color: rgba(255, 255, 255, 0.473);
     position: fixed; top: 32%; left: 37%;
 }
+
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
