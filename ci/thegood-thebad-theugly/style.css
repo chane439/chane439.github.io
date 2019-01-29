@@ -1,0 +1,9 @@
+body {background-color: #7DB1CC;
+	background-size: 1280px;
+	background-repeat: no-repeat;
+}
+
+img {height: 60px;}
+
+.gooddoor {position: fixed; left: 45%; right: 50%; top: 20%}
+.baddoor {position: fixed; left: 45%; right: 50%; top: 72%;}
