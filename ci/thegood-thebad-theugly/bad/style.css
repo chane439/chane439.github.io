@@ -2,7 +2,12 @@ body {background-color: white;
 margin: 0px;
 padding: 0px;}
 
-img {height: 714.5px;}
+img {height: 714.5px;display: block; line-height: 1;}
+
+.back {position: fixed; left:0; top:0;}
+
+
+
 
 ::-webkit-scrollbar {
     width: 10px;
