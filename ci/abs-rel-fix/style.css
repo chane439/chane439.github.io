@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+}
+
+.rel1 {position: relative; top: -10px; left: 100px;}
+
+.rel2 {position: relative; top: -10px; left: 300px;}
+
+.abs {position: absolute; top: 0px; left: 0}
+
+.fix {position: fixed; top: 0; right: 0;}
+
+.square {
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	background: #00f;
+	color: #fff;
+}
+
+.circle {
+	width: 50px;
+	height: 50px;
+	background: #f00;
+	border-radius: 100%;
+}
+
