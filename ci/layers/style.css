@@ -100,7 +100,7 @@ body {
 	height: 300px;
 	margin: 0 auto;
 	animation-name: stretch;
-	animation-duration: 3s; 
+	animation-duration: 5s; 
 	animation-timing-function: ease-out; 
 	animation-delay: 0;
 	animation-direction: alternate;
