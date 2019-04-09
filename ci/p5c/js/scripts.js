@@ -1,13 +1,12 @@
 let r1, r2, r3, r4;
-const barWidth = 20;
+const barWidth = 1;
 let lastBar = -1;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  noStroke();
-  noCursor();
   colorMode(HSB, height, height, height);
-  background(0);
+  background('black');
+
   r1 = new MRect(5, 134.0, 0.532, 0.1 * height, 10.0, 60.0);
   r2 = new MRect(3, 44.0, 0.166, 0.3 * height, 5.0, 50.0);
   r3 = new MRect(4, 58.0, 0.332, 0.4 * height, 10.0, 35.0);
@@ -15,17 +14,34 @@ function setup() {
 }
 
 function draw() {
-  textFont('Caslon');
-  textSize(16);
+  textAlign(CENTER, CENTER);
 
   if (keyIsPressed === true) {
+    textSize(100);
+    textFont('Caslon');
+    strokeWeight(0.1);
+    stroke('white');
     r1.display();
     r2.display();
     r3.display();
     r4.display();
-    text('i am sure that you will find your own colorwave :-)', 500, 350);
+    text('you', width/2, 97.8);
+    text('will', width/2, 197.8);
+    text('find', width/2, 297.8);
+    text('your', width/2, 397.8);
+    text('own', width/2, 497.8);
+    text('colorwave :-)', width/2, 593);
   } else {
-    text('stay colorful and..', 600, 350);
+    textSize(200);
+    textFont('Gotham');
+    noStroke();
+    text('STAY', width/2, 150);
+    text('COLORFUL', width/2, 350);
+    text('AND...', width/2, 550);
+    textSize(12);
+    textFont('Avenir');
+    text('press', 295, 355);
+    text('keyboard', 580, 355);
   }
 
   r1.move(mouseX - width / 2, mouseY + height * 0.1, 100);
@@ -44,12 +60,12 @@ function draw() {
 
 class MRect {
   constructor(iw, ixp, ih, iyp, id, it) {
-    this.w = iw; // single bar width
-    this.xpos = ixp; // rect xposition
-    this.h = ih; // rect height
-    this.ypos = iyp; // rect yposition
-    this.d = id; // single bar distance
-    this.t = it; // number of bars
+    this.w = iw;
+    this.xpos = ixp;
+    this.h = ih;
+    this.ypos = iyp;
+    this.d = id;
+    this.t = it;
   }
 
   move(posX, posY, damping) {
@@ -65,12 +81,10 @@ class MRect {
 
   display() {
     for (let i = 0; i < this.t; i++) {
-      rect(
-        this.xpos + i * (this.d + this.w),
-        this.ypos,
-        this.w,
-        height * this.h
-      );
+      rect(this.xpos + i * (this.d + this.w),
+           this.ypos,
+           this.w,
+           height * this.h);
     }
   }
 }
