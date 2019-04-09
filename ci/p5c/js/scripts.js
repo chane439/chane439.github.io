@@ -40,7 +40,7 @@ function draw() {
     text('AND...', width/2, 550);
     textSize(12);
     textFont('Avenir');
-    text('press', 295, 355);
+    text('hold', 295, 355);
     text('keyboard', 580, 355);
   }
 
