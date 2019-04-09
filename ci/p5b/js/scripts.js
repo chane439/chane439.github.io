@@ -30,7 +30,7 @@ function draw() {
         }
       value = value + 2;
       if (value > 255) {
-      value = 255;
+      value = 0;
       }
     } else {
       fill(0);
