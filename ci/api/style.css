@@ -1,0 +1,27 @@
+body {
+    margin: 10px;
+    background:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cityname {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 190px;
+    line-height: 170px;
+    color: rgba(211, 211, 211, 0.356);
+}
+
+.chinabj, .chinash, .usany, .usasf {
+    font-family: Helvetica, sans-serif;
+    font-size: 500px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.good {
+    color: rgb(3, 109, 3);
+}
+
+.bad {
+    color: rgb(128, 0, 0);
+}
